@@ -24,11 +24,17 @@
 1. Клонируйте репозиторий:  
 ```bash
 git clone https://github.com/yourusername/FixIt-Levenshtein.git
+
 2. Перейдите в папку проекта:
+```bash
 cd FixIt-Levenshtein
+
 3. Установите зависимости:
+```bash
 pip install -r requirements.txt
+
 4. Запустите приложение:
+```bash
 python src/main.py
 
 
@@ -44,3 +50,4 @@ FixIt-Levenshtein/
 Пример работы
 После запуска приложения появляется окно Tkinter, где нужно ввести путь к файлу и букву столбца.
 Программа автоматически исправляет значения в выбранном столбце, используя эталонный список корректных данных.
+
